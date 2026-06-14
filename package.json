@@ -1,0 +1,32 @@
+{
+  "name": "agentogenesis",
+  "version": "1.0.0",
+  "description": "Self-improving multi-agent development system built as an Antigravity Plugin.",
+  "main": "index.js",
+  "scripts": {
+    "rag:next": "tsx scripts/ask-next-rag.ts",
+    "rag:react": "tsx scripts/ask-react-rag.ts",
+    "rag:web-guidance": "tsx scripts/ask-web-guidance-rag.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpirumyan/agentogenesis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kpirumyan/agentogenesis/issues"
+  },
+  "homepage": "https://github.com/kpirumyan/agentogenesis#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
