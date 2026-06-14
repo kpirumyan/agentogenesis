@@ -1,0 +1,8 @@
+{
+  "name": "agentogenesis",
+  "version": "0.1.0",
+  "description": "Self-improving multi-agent development system. Orchestrates Coder, Tester, Reviewer, and Editor agents with TDD-first workflow, drift protection, and autonomous prompt improvement.",
+  "author": {
+    "name": "Karen Pirumyan"
+  }
+}
